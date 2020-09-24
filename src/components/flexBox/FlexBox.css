@@ -1,0 +1,51 @@
+.Header{
+    background-color: greenyellow;
+    display:flex;
+    justify-content:flex-start;
+    height:100px;
+    margin:0;
+    padding-top: 0;
+}
+
+.Footer{
+    display:flex;
+    height:100px;
+    align:flex-end;
+    bottom:0;
+    margin:0;
+    background-color: greenyellow;
+}
+ul{
+    display:flex;
+    padding-left: 0 !important;
+    height:350px;
+    margin:0;
+
+}
+
+
+li {  
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content: stretch;
+    height: 100px;  
+    background-color: #8cacea;  
+}
+
+.article{
+    background-color: white;
+    width:60%;
+    height:100%;
+}
+.aside{
+    background-color: whitesmoke;
+    width:20%;
+    height:100%;
+}
+.nav{
+    background-color: skyblue;
+    width:20%;
+    height:100%;
+}
